@@ -1,0 +1,14 @@
+.cell {
+    height: 20;
+    width: 20;
+}
+
+.cell button {
+    background-color: #183e4d;
+    color: white;
+}
+
+.cell button:hover {
+    cursor: pointer;
+    background-color: brown;
+}
