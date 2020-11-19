@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Grid Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application created to display 50*50 grid which gives possiblity to click for each cell in the grid template. Clicking a cell increments 1 each cell in the row and column where the cell is located. If the incremented number has the fibonacci sequence with the length of 5, each cell in the row and the column will be set 0. 
 
 ## Available Scripts
 
