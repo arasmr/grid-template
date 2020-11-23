@@ -19,7 +19,7 @@ function Grid({ grid, handleClick }: GridProps) {
             >
                 {grid.map((row, rowIndex) =>
                     row.map((cell, colIndex) => (
-                        <Cell cell={cell} handleClick={handleClick} colIndex={colIndex} rowIndex={rowIndex} value={cell} />
+                        <Cell key={colIndex} cell={cell} handleClick={handleClick} colIndex={colIndex} rowIndex={rowIndex} value={cell} />
                     ))
                 )}
             </div>
